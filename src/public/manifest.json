@@ -8,41 +8,58 @@
   "background_color": "#ffffff",
   "theme_color": "#3b82f6",
   "orientation": "portrait-primary",
+  "dir": "ltr",
+  "lang": "en",
+  "categories": [
+    "finance",
+    "productivity",
+    "business"
+  ],
   "icons": [
     {
-      "src": "/icon/icon-192.png",
+      "src": "/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon/icon-512.png",
+      "src": "/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
   ],
-  "shortcuts": [
-    {
-      "name": "Add Transaction",
-      "short_name": "Add Entry",
-      "description": "Quickly add a new transaction",
-      "url": "/add",
-      "icons": [
-        {
-          "src": "/icon/icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    }
-  ],
-  "categories": ["finance", "productivity", "business"],
   "screenshots": [
     {
-      "src": "/icon/icon-512.png",
-      "sizes": "512x512",
+      "src": "/screenshots/screenshot.png",
+      "sizes": "540x720",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add New Entry",
+      "short_name": "Add Entry",
+      "description": "Quickly add a new transaction",
+      "url": "/?action=add-entry",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Reports",
+      "short_name": "Reports",
+      "description": "View your financial reports",
+      "url": "/?action=view-reports",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
